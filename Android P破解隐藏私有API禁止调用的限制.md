@@ -10,7 +10,7 @@ https://juejin.im/post/5ba0f3f7e51d450e6f2e39e0
 现在我把源码发上来，算是这部分的最后一块拼图。
 
  
-```
+```java
     /**
      * 用Unsafe清除classloader
      * 该方法仅对同一个类生效，所以必须在需要的类中添加使用，不可以跨类调用
@@ -51,7 +51,7 @@ https://juejin.im/post/5ba0f3f7e51d450e6f2e39e0
 
 用法：
 
-```
+```java
 //在当前类下
 public class Reflection9 {
     private static void method() {
@@ -65,4 +65,5 @@ public class Reflection9 {
 
 
 和掘金说的不同，不仅仅反射，直接调用也是可以的，没有此类限制。
+
 **请求热心值和热心回复**
